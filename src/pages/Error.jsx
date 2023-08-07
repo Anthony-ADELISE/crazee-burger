@@ -6,7 +6,7 @@ const Error = () => {
     <div>
       <h1>Error page</h1>
       <button>
-        <Link to="/">Retourner page d'acceuil</Link>
+        <Link to="/">Retourner vers la page d'accueil</Link>
       </button>
     </div>
   );

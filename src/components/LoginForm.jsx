@@ -9,7 +9,7 @@ const LoginForm = () => {
   const onSubmit = (e) => {
     e.preventDefault();
 
-    navigate("/order");
+    navigate(`order/${firstName}`);
     setFirstName("");
   };
 
@@ -18,9 +18,9 @@ const LoginForm = () => {
       {/* div titre + sous titre */}
       <div>
         <h1>Bienvenue chez nous</h1>
+        <h2>Connectez vous</h2>
       </div>
       <form onSubmit={onSubmit}>
-        <label htmlFor="firstName">Prénom</label>
         <input
           type="text"
           name="firstName"

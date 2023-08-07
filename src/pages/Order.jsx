@@ -1,12 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const Order = () => {
+  const { firstName } = useParams();
+  console.log(firstName);
   return (
     <div>
-      <h1>Bonjour Bob</h1>
+      <h1>Bonjour {firstName}</h1>
       <button>
-        <Link to="/">Retourner page d'acceuil</Link>
+        <Link to="/">Déconnexion</Link>
       </button>
     </div>
   );
