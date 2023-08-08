@@ -42,7 +42,7 @@ const LoginForm = () => {
             <PiUserCircleFill />
           </div>
         </div>
-        <div className="bg-primary_burger font-bold  font-openSans justify-center space-x-3  text-white py-5 mt-5 rounded-md flex items-center">
+        <div className="bg-primary_burger font-bold border border-white font-openSans justify-center space-x-3  text-white py-5 mt-5 rounded-md flex items-center hover:bg-white hover:text-primary_burger hover:border hover:border-primary_burger hover:cursor-pointer transition duration-300">
           <Button
             className=" ursor-pointer"
             title="Accéder à mon espace"

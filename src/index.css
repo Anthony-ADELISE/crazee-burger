@@ -8,6 +8,6 @@
   }
 
   .inputForm {
-    @apply w-[400px] py-5 mt-5 rounded-md pl-12 relative  font-openSans font-normal placeholder:text-[#D3D3D3];
+    @apply w-[400px] py-5 mt-5 rounded-md pl-12 text-dark relative  font-openSans font-normal placeholder:text-[#D3D3D3];
   }
 }
