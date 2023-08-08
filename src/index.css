@@ -6,4 +6,8 @@
   .loginPage {
     @apply h-screen flex flex-col space-y-10 justify-center items-center before:bg-black/70 before:bg-burger before:bg-blend-darken  before:content-[''] before:bg-center before:bg-cover before:top-0 before:left-0 before:right-0 before:bottom-0 before:absolute before:-z-10;
   }
+
+  .inputForm {
+    @apply w-[400px] py-5 mt-5 rounded-md pl-12 relative  font-openSans font-normal placeholder:text-[#D3D3D3];
+  }
 }
