@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+import BackgroundBurger from "../assets/images/F03 burger-background.jpg";
+
 const LoginForm = () => {
   const navigate = useNavigate();
   const [firstName, setFirstName] = useState("");
