@@ -2,8 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import BackgroundBurger from "../assets/images/F03 burger-background.jpg";
-
 const LoginForm = () => {
   const navigate = useNavigate();
   const [firstName, setFirstName] = useState("");
@@ -16,7 +14,7 @@ const LoginForm = () => {
   };
 
   return (
-    <section>
+    <section className="bg-red">
       {/* div titre + sous titre */}
       <div>
         <h1>Bienvenue chez nous</h1>

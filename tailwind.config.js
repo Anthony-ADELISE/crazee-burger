@@ -3,6 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        openSans: ["Open Sans", "sans-serif"],
+        amaticSC: ["Amatic SC", "cursive"],
+      },
+      backgroundImage: {
+        burger: "url(/images/burger-background.jpg)",
+      },
       colors: {
         dark: "#17161a",
         incognito: "#333",
