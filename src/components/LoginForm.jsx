@@ -12,6 +12,7 @@ const LoginForm = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    console.log("form");
 
     navigate(`order/${firstName}`);
     setFirstName("");
@@ -23,7 +24,7 @@ const LoginForm = () => {
       <div className="text-white font-bold text-5xl font-amaticSC border-b-2 text-center w-[400px] pb-8 border-[#F56A2C]">
         <h1>Bienvenue chez nous !</h1>
       </div>
-      <form onSubmit={onSubmit}>
+      <form action="submit" onSubmit={onSubmit}>
         <h2 className="text-white font-bold text-4xl font-amaticSC text-center pt-10">
           Connectez vous
         </h2>
@@ -42,14 +43,10 @@ const LoginForm = () => {
             <PiUserCircleFill />
           </div>
         </div>
-        <div className="bg-primary_burger font-bold border border-white font-openSans justify-center space-x-3  text-white py-5 mt-5 rounded-md flex items-center hover:bg-white hover:text-primary_burger hover:border hover:border-primary_burger hover:cursor-pointer transition duration-300">
-          <Button
-            className=" ursor-pointer"
-            title="Accéder à mon espace"
-            type="submit"
-          />
+        <button className="bg-primary_burger w-full font-bold border border-white font-openSans justify-center space-x-3  text-white py-5 mt-5 rounded-md flex items-center hover:bg-white hover:text-primary_burger hover:border hover:border-primary_burger hover:cursor-pointer transition duration-300">
+          <span className="cursor-pointer">Accéder à mon espace</span>
           <BsChevronRight />
-        </div>
+        </button>
       </form>
     </section>
   );
