@@ -8,6 +8,14 @@
   }
 
   .inputForm {
-    @apply w-[400px] py-5 mt-5 rounded-md pl-12 text-dark relative  font-openSans font-normal placeholder:text-[#D3D3D3];
+    @apply w-full py-5 mt-5 rounded-md pl-12 text-dark relative  font-openSans font-normal placeholder:text-[#D3D3D3];
+  }
+
+  .iconStyle {
+    @apply absolute text-greyBlue top-11 left-0 pl-6 flex items-center pointer-events-none;
+  }
+
+  .primaryButtonStyle {
+    @apply bg-primary_burger w-full font-bold  font-openSans justify-center space-x-3  text-white py-5 mt-5 rounded-md flex items-center hover:bg-white hover:text-primary_burger hover:border hover:border-primary_burger hover:cursor-pointer transition duration-300;
   }
 }

@@ -1,4 +1,4 @@
-import LoginForm from "../components/LoginForm";
+import LoginForm from "../components/login/LoginForm";
 import Logo from "../reusable-ui/Logo";
 
 export const Login = () => {
