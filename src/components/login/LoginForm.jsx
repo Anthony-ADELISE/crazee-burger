@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import { PiUserCircleFill } from "react-icons/pi";
 import { BsChevronRight } from "react-icons/bs";
-import Input from "./Input";
+import Input from "../../reusable-ui/Input";
 import PrimaryButton from "../../reusable-ui/PrimaryButton";
 
 const LoginForm = () => {
