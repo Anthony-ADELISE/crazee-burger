@@ -8,7 +8,7 @@ const Order = () => {
 
   return (
     <section className="h-screen bg-primary_burger w-full ">
-      <div className="flex flex-col h-full py-10 max-w-[1400px] mx-auto">
+      <div className="flex items-center justify-center flex-col h-full py-10 max-w-[1400px] mx-auto">
         <Navbar firstName={firstName} />
         <MainOrder />
       </div>
