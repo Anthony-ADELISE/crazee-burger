@@ -3,9 +3,9 @@ import Menu from "./menu/Menu";
 
 const MainOrder = () => {
   return (
-    <main className="w-full bg-background_white flex-1 rounded-b-lg flex">
-      <div className="bg-red w-1/4">Basket</div>
-      <div className="bg-blue w-full">
+    <main className="w-full h-full bg-background_white flex rounded-b-lg">
+      <div className="w-1/4 bg-blue hidden">Basket</div>
+      <div className="w-full bg-red overflow-y-scroll">
         <Menu />
       </div>
     </main>
