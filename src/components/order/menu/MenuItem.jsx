@@ -1,17 +1,21 @@
 import React from "react";
-import Card from "./Card";
 
-const MenuItem = ({ menu }) => {
-  console.log(menu.title, "elllll");
+const MenuItem = ({ title, price, imageSource }) => {
   return (
-    <section className="w-[240px] h-[330px] bg-white rounded-lg">
-      <div>
-        <img src={menu.imageSource} width={200} height={145} alt={menu.title} />
+    <section className="w-[240px] h-[330px] bg-white rounded-lg flex flex-col items-center justify-center">
+      <div className="w-24">
+        <img
+          className="w-full h-full object-cover"
+          src={imageSource}
+          width={200}
+          height={145}
+          alt={title}
+        />
       </div>
       <div>
-        <p>{menu.title}</p>
+        <p>{title}</p>
         <div>
-          <span>{menu.price}</span>
+          <span>{price}</span>
           <button>Ajouter</button>
         </div>
       </div>
