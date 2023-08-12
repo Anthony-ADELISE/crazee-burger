@@ -12,10 +12,7 @@ const Navbar = ({ firstName }) => {
       <ul className="flex items-center justify-between py-5 pl-5 pr-16">
         <li>
           <button onClick={handleLogoClick}>
-            <Logo
-              className="lg:text-4xl md:text-4xl text-4xl"
-              styleImg={"w-[80px]"}
-            />
+            <Logo styleImg={"w-[80px]"} />
           </button>
         </li>
         <li className="flex items-center space-x-2 text-greyBlue font-normal">
