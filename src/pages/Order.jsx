@@ -1,16 +1,18 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import MainOrder from "../components/order/MainOrder";
+import Navbar from "../reusable-ui/Navbar";
 
 const Order = () => {
   const { firstName } = useParams();
-  console.log(firstName);
+
   return (
-    <div>
-      <h1>Bonjour {firstName}</h1>
-      <button>
-        <Link to="/">Déconnexion</Link>
-      </button>
-    </div>
+    <section className="h-screen bg-primary_burger w-full ">
+      <div className="flex items-center justify-center flex-col h-full py-10 max-w-[1400px] mx-auto">
+        <Navbar firstName={firstName} />
+        <MainOrder />
+      </div>
+    </section>
   );
 };
 
