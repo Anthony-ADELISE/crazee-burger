@@ -19,8 +19,8 @@ export default function ToggleButton({
         <span
           className={
             isChecked
-              ? " absolute left-0 ml-3 pt-0.5 font-bold  text-[10px] text-dark font-openSans"
-              : "absolute left-0 ml-12 pt-0.5 text-[10px] text-primary text-center font-bold font-openSans"
+              ? " absolute left-0 ml-3 pt-0.5 font-bold  text-[10px] text-dark font-openSans transition-all duration-300"
+              : "absolute left-0 ml-12 pt-0.5 text-[10px] text-primary text-center font-bold font-openSans transition-all duration-300"
           }
         >
           {isChecked ? labelIfChecked : labelIfUnchecked}
