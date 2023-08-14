@@ -28,7 +28,6 @@ const RightSideNavbar = () => {
       <section className="flex items-center gap-x-12">
         <ToggleButton onToggle={handleToggle} isChecked={isChecked} />
         <Profile />
-        <ToastContainer />
       </section>
     </>
   );
