@@ -13,7 +13,9 @@ const MenuItem = ({ title, price, imageSource }) => {
         />
       </div>
       <div className="mt-4">
-        <p className="text-4xl font-amaticSC font-bold">{title}</p>
+        <p className="text-4xl font-amaticSC font-bold overflow-hidden overflow-ellipsis whitespace-nowrap">
+          {title}
+        </p>
         <div className="flex justify-between font-openSans pt-4 items-center">
           <span className=" text-primary ">{price}</span>
           <button className="bg-primary text-white py-3 px-7 rounded-md">
