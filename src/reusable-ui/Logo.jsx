@@ -3,7 +3,7 @@ import LogoImg from "/images/logo-orange.png";
 const Logo = ({ className = "", styleImg }) => {
   return (
     <div
-      className={` font-bold flex items-center text-primary_burger text-5xl md:text-7xl  space-x-5 font-amaticSC lg:text-9xl ${className}`}
+      className={` font-bold flex  items-center text-primary_burger text-4xl  space-x-5 font-amaticSC  ${className}`}
     >
       <h1>Crazee </h1>
       <img

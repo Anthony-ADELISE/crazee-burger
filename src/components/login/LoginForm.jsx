@@ -48,6 +48,7 @@ const LoginForm = () => {
           label={"Accéder à mon compte"}
           icon={<BsChevronRight />}
           type="submit"
+          className="mt-5"
         />
       </form>
     </section>

@@ -7,8 +7,8 @@ const Order = () => {
   const { firstName } = useParams();
 
   return (
-    <section className="h-screen bg-primary_burger w-full ">
-      <div className="flex items-center justify-center flex-col h-full py-10 max-w-[1400px] mx-auto">
+    <section className="h-screen flex justify-center items-center bg-primary_burger w-full">
+      <div className="flex h-5/6 w-full justify-center flex-col max-w-[1400px]">
         <Navbar firstName={firstName} />
         <MainOrder />
       </div>
