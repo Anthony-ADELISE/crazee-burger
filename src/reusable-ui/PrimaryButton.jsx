@@ -8,7 +8,11 @@ const PrimaryButton = ({
   ...restProps
 }) => {
   return (
-    <button onClick={onClick} className={`primaryButtonStyle ${className}`}>
+    <button
+      onClick={onClick}
+      className={`primaryButtonStyle ${className}`}
+      {...restProps}
+    >
       <span>{label}</span>
       {icon && icon}
     </button>
